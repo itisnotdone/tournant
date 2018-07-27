@@ -1,0 +1,30 @@
+---
+driver:
+  name: gogetkitchen
+
+provisioner:
+  name: policyfile_zero
+  chef_omnibus_url: >
+    http://def-www.default.don/site/chef-bootstrap/install_chef_script_for_lxd.sh
+
+transport:
+  name: sftp
+  ssh_key: <%= Dir.home + '/.ssh/id_rsa' %>
+
+verifier:
+  name: inspec
+
+platforms:
+  - name: lxc01
+    driver:
+      provider: lxd
+      template: ubuntu-16.04-chef
+
+suites:
+  - name: tournant
+    data_bags_path: data_bags
+    encrypted_data_bag_secret_key_path: data_bags
+    environments_path: environments
+    verifier:
+      inspec_tests:
+        - test/integration/default

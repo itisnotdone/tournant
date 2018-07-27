@@ -1,0 +1,32 @@
+{
+  "id": "dev",
+  "vault": true,
+  "users": [
+    {
+      "name": "admin1",
+      "groups": ["sysadmin"],
+      "id": 9001,
+      "shell": "\/bin\/bash",
+      "comment": "admin1",
+      "state": "enable",
+      "sudo_passwordless": "enable",
+      "ssh_keys": {
+        "public": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+448p7N0/z10KgqktYn5W7WZw76awJHnraA046zzd5TK9oc30sfcOx5RBUj7SxJg5BykfT8x67KwXBi2myQHwH2QcbG6yIoZu7n0vUbWdp5X8Uhwf7eY9PgZfcMoj9QEh+uSegY3Wa7QQo9LF1BOxuC8hXHdUJR5grZYtLEOTR3w/FTwv/HmJF8ytMbYKRJQRu+vgbMgRO8nxKxgBeIK0bMTUA/WQ6UCVCauvdZgWORcMAXlRnnLKXKgapafuLaIOZWlava8RqD7Lo74JVgBa4CvYH/MDywoY4RtgxndKu6ehJ6C8kzKg0G9DHSxe+0WLkEETbF6TEeCHYK8My/rH admin1@admin1",
+        "private": "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAvuOPKezdP89dCoKpLWJ+Vu1mcO+msCR562gNOOs83eUyvaHN\n9LH3DseUQVI+0sSYOQcpH0/MeuysFwYtpskB8B9kHGxusiKGbu59L1G1naeV/FIc\nH+3mPT4GX3DKI/UBIfrknoGN1mu0EKPSxdQTsbgvIVx3VCUeYK2WLSxDk0d8PxU8\nL/x5iRfMrTG2CkSUEbvr4GzIETvJ8SsYAXiCtGzE1AP1kOlAlQmrr3WYFjkXDAF5\nUZ5yylyoGqWn7i2iDmVpWr2vEag+y6O+CVYAWuAr2B/zA8sKGOEbYMZ3SrunoSeg\nvJMyoNBvQx0sXvtFi5BBE2xekxHgh2CvDMv6xwIDAQABAoIBADEg2gC9UHgSw2xo\nEmh21/NBaEMaurjMuoAmqHiEuoaVbYi2sw4OG3q3TOW+6CJQrKjIugGwBP2CGgxW\n77rkMtZ9DcPu+FJqZlT4lkluayKnNgfZjhl9nesXIoa/vZahgOgg7WQKDdoooBBE\nSYPWwDbWI3MfnCqQ3w+cvXDk2oN1yVAhgtmVlHkc4qa0ry1HBpJ+bNFAysHlv7hZ\nwMiC9iLsXnR0ZYqjhMCRanRwsZp4ekEpa/s/X/Aj5edcS+yMKioAnMXhk4qSxtbN\nCtqoUZ5g+IxZhrjlIy/FkLRIsn07y7Bhd2Bmb3tIVyQtPYXExh1PJhnZvAd1CZ5x\nPlQwOBECgYEA77EpWYbxN4D9IOgTzqNHie/Kmk02BjHyqgmuzAgeENkYQuGcs0g+\nclZ/hMi1kmqArwObvvxYCa8K8hspaYmEYWB5qyD/6fl68rinErHanPfXuEEYTo5/\nB4VOBF90htEb1vdyx++BR2pj4otVHFYonVMkOcEMeHpzIoQ+VifX2WkCgYEAy+Be\nXrxIWMW2SkaH5ADLeNCPgntn/kDW36vYf5qmL6dqSBuc2dizjqJA80EZkbJOYUyn\n4nuXzhcl2Ntf9q57xRX/MF5YIm8nnU+XwkeSwerVOnTsu0OAXxXJY1H7lRtxcuSr\nPj/7cU+HyXdBgL4wttmt++xmJ185oM2miDoD/K8CgYB7CI0ZD1MyElvcUEQahWVr\nQFLW8VsRwwG0llPLFz+XllgFvJkazbKALjY2im/pQBHdxBRl7FGkZt1PePHA4n25\nHjRVyxKRnyWlAXOA/RoiCHYKdh9r82jxC1QImpbNvPh1V37rcd0CM3IiDzMY4IDo\ngIzPuHAWR4Rh60+0Ga+KQQKBgQCc6Wq4byEfccwDDpW4HgR8T8ikHGbFgRHfxFs0\nmsodEzTxmo71+5r2xFpI3mnXgOxiZqUv4v/LVnWCmhUZvuDzpyJpD7O1jOdoY8Hh\nfUSuixbhjuxElIdQp2wATTDcaeq/Cs/hcU0MwLE5ldeMRtUnZhJKOn/E/b1UzfLG\nFiDLcQKBgDELIPF1I6GdCQZiHbOZ7HD9iGLXFxSpmFSLqEqwO7iSKEU5+4IsT+8e\nORCO2eoLJuIMpvGEz67TKlH3ArPznyewRMXOA++FC72AL63xXLpQXYlHSxlgQpOl\nWJmhh6FsHMNgc6f9NPMyK9EkNID/LVe3bigCW2QPdGv4CaIXwa02\n-----END RSA PRIVATE KEY-----"
+      }
+    },
+    {
+      "name": "admin2",
+      "groups": ["sysadmin"],
+      "id": 9002,
+      "shell": "\/bin\/bash",
+      "comment": "admin2",
+      "state": "enable",
+      "sudo_passwordless": "enable",
+      "ssh_keys": {
+        "public": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDIXHwzklLQwh/YsC9RO3FXtcCi9SGwVBT27P0We8c5Jd1gL6xVwOKqowwb20HIW+zN8oqMyM6GPnSusbUMFAHNJkf2rnhd/JuJfU0Xq5bg0L0NOElY+i/eSjUWU/jxp00GQLEN5dfgr+I3kLzhppRAUC0rqhgPE9uK8RngGhcOlJ/9dyRSKpy65J0A4vS+EaGs0xwJshySpuyiLBl1Gfj9sWGDhh+ilBcTBguMtjEd58ZX12IlecS9OhgRQfRRPL5PAb25RsihWmYUVokT1w5FhOfxx0cNLH0i/mNA3H24Kpw3spHukE1bMwCfCPyhxjkZY7XcfVeGvyo6RrYLsyN admin2@admin2",
+        "private": "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAwyFx8M5JS0MIf2LAvUTtxV7XAovUhsFQU9uz9FnvHOSXdYC+\nsVcDiqqMMG9tByFvszfKKjMjOhj50rrG1DBQBzSZH9q54XfybiX1NF6uW4NC9DTh\nJWPov3ko1FlP48adNBkCxDeXX4K/iN5C84aaUQFAtK6oYDxPbivEZ4BoXDpSf/Xc\nkUiqcuuSdAOL0vhGhrNMcCbIckqbsoiwZdRn4/bFhg4YfopQXEwYLjLYxHefGV9d\niJXnEvToYEUH0UTy+TwG9uUbIoVpmFFaJE9cORYTn8cdHDSx9Iv5jQNx9uCqcN7K\nR7pBNWzMAnwj8ocY5GWO13H1Xhr8qOka2C7MjQIDAQABAoIBAQCw+veuElvV4FGn\nwDjSMd96gT+ANrUnF9S0inOYb615Rje9Qm0yyZoTvgXytE1uBzyZj0NUrRcJTbfh\nErjdoYgkUOeFRcwMHM+Mae8RdcKsi8xBVGjUkd57M/f9SZg1HmJc60ZgE4+++Aai\nq/yLhg0W5Yz7k+JxjqH4acf0nDmLU2D68D1eGWp3Dbl2taVoHyx3DTFulLiopBCr\ntuLoUyXod/moV9Czp5k3tVrpRoVy/lVupCzlG9TPbFtwhrUbfVUIhU3pxQOxpkwz\nTs7B8LfaAaePl0nIIxBNoq4QEPq9gIXUjDJNfaF4JXtxaiwspijMfYBg459UZ7ag\naQ4HTqidAoGBAOZzV3CRHLouMulDCgaTDuCcOc+88Lwk3jPiIlKNW8fbAZ442Jmf\n6IoFIIikOFQbhRooBXUhs1FZfMXOVRE0kH2jncheRM6yNewTqAiXDT3V/MfS/P8l\ntVhJZ3j0k+Rc7lEAO6dbOeFC4fV/b1t2oAk2K0JHR1gDj0YKmoxRWYtvAoGBANjD\npvgz11VggO3FUlfg7ESphnqGraEgWYpZ5oD+Dmss0h8c7p5Xd17iwDT6M/5XgcC0\nNH8o7/iBA9+wvkKeFv29YnBEH3ewX8MTGHfMFFNStHnY3LMBlXSDmQLNxD4ieaMe\nynZeiF0zXk2cxHcboaWSREl+um9JwxKdf6F4gFnDAoGAdwK39G0sbcXwCuDRK6YE\nd+CWRn8nv7I2gorU+NcBwAuNIV3wFh4r5CNTst1ELcNskJ58ewolZeyV8D1nVxRT\nTl8R2+k7FZeZG0rna1A+yWFaQwPmHgomReraoe+E9Nk9Rd2d8Qa+tGNq9/KQ2qY/\nbaJo4riW0pA8DIrrV22nlccCgYEAlvAuXRikMhQ/0tGbFAxQGUO+m6UaVF9VWkxd\ngKbn3WNZcUbRNbsMKStV0c4D1HCUrl4NTBpydyVHUEUfRv4UXl24pRoam1paZFjw\nqcKWyKqHd201yQQqUPat3lDv/KA++QIg0yniZJu3Z+3otFOuTL+8Az1WjtXbGyRG\n0mY5YccCgYEAx/aO0RlHtSwiOcGlDb5rFMjvqDiJ2A/a/zqD7ctp/yuXP2kgNw9x\nz3/064OIrjUU0Kx811cD2eMRw+5pntOROtr1sLFoEo7SexqS2UOVnnzkB0Qp95sl\nEXeQwWn6Y8uWupLHgygCjaZoq7maChw54lYM+dwHHb7TUpoM0oLyklQ=\n-----END RSA PRIVATE KEY-----"
+      }
+    }
+  ]
+}

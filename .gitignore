@@ -1,0 +1,28 @@
+.vagrant
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+# Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+# test kitchen
+.kitchen/
+.kitchen.local.yml
+
+# Chef
+Berksfile.lock
+.zero-knife.rb
+Policyfile.lock.json
+.chef
+mkmf.log
+
+cookbooks/*
+zero/policies/*.json
+zero/policy_groups/*.json
+zero/clients/*.json

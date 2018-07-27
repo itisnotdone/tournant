@@ -1,0 +1,11 @@
+{
+  "id": "dev",
+  "vault": false,
+  "groups": [
+    {
+      "name": "sysadmin",
+      "id": 9000 ,
+      "state": "enable"
+    }
+  ]
+}
